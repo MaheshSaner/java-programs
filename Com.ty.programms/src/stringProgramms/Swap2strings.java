@@ -19,7 +19,9 @@ public class Swap2strings {
 		s2=s1.substring(0, (s1.length()-s2.length()));
 		
 		
-		//extract s2 from new s1 to store it in s1
+		//extract length of s2 from new s1 to store it in s1
+		
+		                 //S2=hello   s2.length=5
 		s1=s1.substring(s2.length());
 		
 
